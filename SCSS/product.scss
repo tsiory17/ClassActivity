@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+// Media query for the sizing of the screens
+.product-grid {
+    display: grid;
+    gap: 16px;
+    padding: 16px;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media (min-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+// Finish the rest of the styling
